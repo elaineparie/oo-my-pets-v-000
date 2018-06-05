@@ -41,6 +41,6 @@ def buy_dog(name)
   @pets[:dogs] << new_dog
 end
 
-#end 
+#end
 
 end
