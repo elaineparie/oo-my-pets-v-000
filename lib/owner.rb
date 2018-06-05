@@ -5,14 +5,18 @@ attr_accessor :name
 
 def initialize(name)
   @name = name
-  @@all << self.new
+  @@all << self
 end
 
 def self.all
   @@all
 end
 
-def reset_owner
+def self.all
+  @@all.count
+end
+
+def self.reset_owner
   @@all.clear
 end
 
