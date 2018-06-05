@@ -63,6 +63,7 @@ def sell_pets
     @pets[:fishes][0].mood = "nervous"
     @pets[:dogs][0].mood = "nervous"
     @pets[:cats][0].mood = "nervous"
+    @pets.clear
 
 end
 
