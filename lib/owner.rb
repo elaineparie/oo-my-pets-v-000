@@ -48,7 +48,7 @@ def say_species
 end
 
 def self.walk_dogs
-  n
+  
   #when the owner, herself, walks the dog, the dog's mood changes
 self.pets.dogs.mood = "happy"
 end
