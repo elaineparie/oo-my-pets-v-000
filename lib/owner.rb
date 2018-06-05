@@ -5,10 +5,11 @@ attr_accessor :name, :pets, :fish, :dog, :cat
 
 @@all = []
 
-def initialize(name)
+def initialize(name, species)
   @name = name
   @@all << self
   @pets = {fishes: [], cats: [], dogs: []}
+  @species = species 
 end
 
 def self.all
