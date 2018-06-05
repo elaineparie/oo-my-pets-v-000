@@ -43,6 +43,8 @@ def buy_dog(name)
   @pets[:dogs] << new_dog
 end
 
-#end
+def say_species(species)
+  puts "I am a #{"species"}
+end
 
 end
