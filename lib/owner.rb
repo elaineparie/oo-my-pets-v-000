@@ -51,6 +51,7 @@ def self.walk_dogs
 
   #when the owner, herself, walks the dog, the dog's mood changes
 self.pets.dogs.mood
+binding.pry
 
 end
 
