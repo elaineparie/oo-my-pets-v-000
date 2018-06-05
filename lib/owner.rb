@@ -27,8 +27,8 @@ def buy_fish(name)
   new_fish = Fish.new(name)
   new_fish.owner = self
     binding.pry
-  :pets[0] << new_fish
-  binding.pry
+  @pets[:fishes] << new_fish
+
 
 end
 
