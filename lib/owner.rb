@@ -65,10 +65,6 @@ pet.mood = "nervous"
 end
 
 @pets.clear
-
-
-
-
 end
 
 def list_pets
