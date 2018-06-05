@@ -7,6 +7,7 @@ attr_accessor :name, :pets
 def initialize(name)
   @name = name
   @@all << self
+  @pets = {fishes: [], cats: [], dogs: []}
 end
 
 def self.all
@@ -19,6 +20,10 @@ end
 
 def self.reset_all
   @@all.clear
+end
+
+def buy_fish(name)
+  Fish.new(name)
 end
 
 
