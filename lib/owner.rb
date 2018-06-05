@@ -47,4 +47,9 @@ def say_species
 "I am a #{@species}."
 end
 
+def self.walk_dogs
+  new_dog = Dog.new(name)
+  new_dog.mood = happy
+end
+
 end
