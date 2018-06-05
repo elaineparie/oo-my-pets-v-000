@@ -23,7 +23,8 @@ def self.reset_all
 end
 
 def buy_fish(name)
-  Fish.new(name)
+  new_fish = self.fish(name)
+  :fishes[0] << new_fish
 end
 
 
