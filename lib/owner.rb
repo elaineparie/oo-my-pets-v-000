@@ -60,10 +60,10 @@ pets[:fishes][0].mood = "happy"
 end
 
 def sell_pets
-  @pets.each do |species, pet|
+  @pets.collect do |species, pet|
     @pets[pet].mood = "nervous"
 
-    binding.pry
+
 end
 
 @pets.clear
