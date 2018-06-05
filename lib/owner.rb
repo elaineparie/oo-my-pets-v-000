@@ -62,6 +62,8 @@ end
 def sell_pets
   @pets.collect do |species, pet|
     pet[0].mood = "nervous"
+    pet[1].mood = "nervous"
+    pet[2].mood = "nervous"
 end
 
 @pets.clear
