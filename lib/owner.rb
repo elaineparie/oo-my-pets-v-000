@@ -48,8 +48,9 @@ def say_species
 end
 
 def self.walk_dogs
-  new_dog = Dog.new(name)
-  new_dog.mood = happy
+  new_owner = self.new
+  #when the owner, herself, walks the dog, the dog's mood changes
+new_owner.pets.dogs.mood
 end
 
 end
