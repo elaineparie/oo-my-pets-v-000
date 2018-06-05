@@ -64,6 +64,7 @@ def sell_pets
     pet.each do |animal|
       animal.moood = "nervous"
 end
+end
 
 #@pets.clear
 end
