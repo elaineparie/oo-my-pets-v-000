@@ -61,12 +61,10 @@ end
 
 def sell_pets
     @pets.clear
-    new_fish = Fish.new
-    new_fish.mood = "nervous"
-    new_cat = Cat.new
-    new_cat.mood = "nervous"
-    new_dog = Dog.new
-    new_Dog.mood = "nervous"
+    new_fish = Fish.new(new_fish)
+    new_cat = Cat.new(new_cat)
+    new_dog = Dog.new(new_dog)
+
 end
 
 end
