@@ -60,6 +60,7 @@ pets[:fishes][0].mood = "happy"
 end
 
 def sell_pets
+  self.reset_all
   pets[:fishes][0].mood = "nervous"
   pets[:cats][0].mood = "nervous"
   pets[:dogs][0].mood = "nervous"
