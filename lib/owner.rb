@@ -60,6 +60,7 @@ pets[:fishes][0].mood = "happy"
 end
 
 def sell_pets
+  pets.mood = "nervoise"
     @pets.clear
 end
 
