@@ -50,7 +50,7 @@ end
 def self.walk_dogs
   new_owner = self.new
   #when the owner, herself, walks the dog, the dog's mood changes
-new_owner.pets.dogs.mood
+new_owner.pets.dogs.mood = "happy"
 end
 
 end
