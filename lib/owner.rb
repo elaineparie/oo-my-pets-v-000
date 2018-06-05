@@ -49,7 +49,7 @@ end
 
 def walk_dogs
   #when the owner, herself, walks the dog, the dog's mood changes
-self.pets[:dogs].mood = "happy"
+pets[:dogs].mood = "happy"
 
 
 end
