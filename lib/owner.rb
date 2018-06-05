@@ -1,7 +1,7 @@
 require 'pry'
 class Owner
 
-attr_accessor :name, :pets, :fish, :dog, :cat, :species 
+attr_accessor :name, :pets, :fish, :dog, :cat, :species
 
 @@all = []
 
@@ -9,6 +9,7 @@ def initialize(name)
   @name = name
   @@all << self
   @pets = {fishes: [], cats: [], dogs: []}
+  @species 
 end
 
 def self.all
