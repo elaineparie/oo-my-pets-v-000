@@ -61,7 +61,9 @@ end
 
 def sell_pets
   @pets.collect do |species, pet|
+    binding.pry
     pet.mood = "nervous"
+    
 end
 
 @pets.clear
