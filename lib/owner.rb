@@ -1,7 +1,7 @@
 require 'pry'
 class Owner
 
-attr_accessor :name, :pets, :fish, :dog, :cat
+attr_accessor :name, :pets, :fish, :dog, :cat, :species 
 
 @@all = []
 
@@ -40,5 +40,7 @@ def buy_dog(name)
   new_dog.owner = self
   @pets[:dogs] << new_dog
 end
+
+#end 
 
 end
