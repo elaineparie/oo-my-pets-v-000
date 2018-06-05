@@ -48,7 +48,6 @@ def say_species
 end
 
 def walk_dogs
-  #when the owner, herself, walks the dog, the dog's mood changes
 pets[:dogs][0].mood = "happy"
 end
 
