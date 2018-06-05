@@ -12,7 +12,7 @@ def self.all
   @@all
 end
 
-def self.all
+def self.count
   @@all.count
 end
 
